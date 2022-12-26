@@ -1,0 +1,14 @@
+button{
+    color: white;
+    background-color: orange;
+    font-weight: 500;
+    position: fixed;
+    right: 36%;
+    height: 60px;
+    width: 60px;
+}
+
+ul{
+    font-weight: 500;
+    min-width: 200px;
+}

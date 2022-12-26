@@ -1,0 +1,9 @@
+<div class="row align-items-center justify-content-center m-5">
+    <input class="form-control form-control-sm h-50 w-25" type="text" #nombres>
+    <button class="btn btn-warning border-0 rounded-circle" type="button" (click)="agregarTexto(nombres.value)">ADD</button>
+</div>
+<div class="row align-items-center justify-content-center m-5">
+    <ul class="col-2 text-center border border-info border-4 rounded-5 p-5 text-wrap bg-primary bg-gradient bg-opacity-25 list-unstyled">
+        <li class="mb-2" *ngFor="let nom of cursos">{{nom}}</li>
+    </ul>
+</div>
